@@ -1,0 +1,2369 @@
+body{
+    background-image: url('imagen_de_color_de_pagina_web.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll; 
+}
+/*estilizando_menu_de_navegacion*/
+.contenedor_1{
+    width: 1248px;
+    height: 50px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87); 
+}
+.masomy{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-family: Arial;
+}
+.contenedor_2{
+    margin-top: -60.5px;
+    margin-left: 140px;
+}
+.barra_busqueda{
+    width: 280px;
+    height: 35px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.inicio{
+    margin-left: 287px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.nosotros{
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.contactanos{
+    margin-left: 50px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.guardar_icono{
+    margin-left: 53px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.carrito_icono{
+    margin-left: 48px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.contenedor_cuenta{
+    margin-top: -45px;
+    margin-left: 1220px;
+}
+.cuenta_icono{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.inicio:hover, .nosotros:hover, .contactanos:hover, .guardar_icono:hover, .carrito_icono:hover, .cuenta_icono:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_imagenes_carrusel*/
+.carousel {
+    width: 1249px;
+    margin-top: 14px;
+    margin-left: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    border: 2px solid rgb(43, 43, 43);
+}
+.slide {
+    width: 100%;
+    display: none;
+}
+img:first-child {
+    display: block;
+}
+.carousel-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.carousel-button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(87, 87, 87);
+}
+.carousel-button.active {
+    background-color: rgb(43, 43, 43);
+}
+/*estilizando_botones_de_paginacion*/
+.paginaciones{
+    margin-top: 5px;
+    margin-left: 533px;
+}
+.paginacion_1, .paginacion_2, .paginacion_3{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87); 
+}
+.paginacion_1:hover, .paginacion_2:hover, .paginacion_3:hover{
+    color: rgb(43, 43, 43);
+}
+/* Estilizando_carrito_de_compra*/
+.modal {
+    z-index: 1;
+    left: 413px;
+    top: 44px;
+    width: 100%;
+    display: none;
+    position: absolute;
+    height: auto;
+    background-color: transparent;
+}
+.modal-contenido {
+    padding: 10px;
+    width: 60%;
+    max-width: 400px;
+    margin: 20px auto;
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.modal-cerrar {
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    position: absolute;
+    cursor: pointer;
+}
+.contenedor_productos{
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.carrito_de_compras{
+    text-align: center;
+    font-family: Arial;
+}
+.productos_nombre{
+    margin-top: -21px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.productos_precio{
+    margin-top: -45px;
+    margin-left: 310px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.fa-trash {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.fa-trash:hover{
+    color: rgb(43, 43, 43);
+}
+.valor_total{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.contenedor_comprar{
+    margin-top: -53px;
+    margin-left: 205px;
+}
+.boton_finalzar_comprar{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+/*estilizando_nosotros*/
+.contenedor_mision{
+    margin-top: 15px;
+    margin-left: 5px;
+    width: 350px;
+    height: 210px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.mision{   
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+}
+.parrafo_1{
+    margin-top: -15px;
+    font-family: Arial;
+    text-align: justify;
+}
+.contenedor_vision{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 350px;
+    height: 210px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.vision{   
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+}
+.parrafo_2{
+    margin-top: -15px;
+    font-family: Arial;
+    text-align: justify;
+}
+.contenedor_compromiso{
+    margin-top: -433px;
+    margin-left: 454px;
+    width: 350px;
+    height: 210px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.compromiso{   
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+}
+.parrafo_3{
+    margin-top: -15px;
+    font-family: Arial;
+    text-align: justify;
+}
+.contenedor_valores{
+    margin-top: 5px;
+    margin-left: 454px;
+    width: 350px;
+    height: 210px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.valores{   
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+}
+.parrafo_4{
+    margin-top: -15px;
+    font-family: Arial;
+    text-align: justify;
+}
+.contenedor_calidad_sin_concesiones{
+    margin-top: -433px;
+    margin-left: 903px;
+    width: 350px;
+    height: 210px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.calidad_sin_concesiones{   
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+}
+.parrafo_5{
+    margin-top: -15px;
+    font-family: Arial;
+    text-align: justify;
+}
+.contenedor_mi_empresa{
+    margin-top: 5px;
+    margin-left: 903px;
+    width: 350px;
+    height: 210px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.mi_empresa{   
+    margin-top: 5px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial;
+}
+.parrafo_6{
+    margin-top: -15px;
+    font-family: Arial;
+    text-align: justify;
+}
+.footer_2{
+    margin-top: 95px;
+}
+/*estilizando_contactanos*/
+.imagen_titulo_masomy{
+    width: 1000px;
+    height: 600px;
+    margin-top: 15px;
+    margin-left: 130px;
+}
+/*estilizando_icono_cuenta*/
+.contenedor_inicio_sesion{
+    width: 313px;
+    margin-top: 5px;
+    margin-left: 450px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.inicio_sesion{
+    text-align: center;
+    font-family: Arial;
+}
+.usuario_input{
+    font-size: 25px;
+    margin-left: 5px;
+    border-radius: 5px;
+    display: block;
+    border: 2px solid rgb(43, 43, 43);
+}
+.contraseña_input{
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block;
+    border: 2px solid rgb(43, 43, 43);
+}
+.email_input{
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block;
+    border: 2px solid rgb(43, 43, 43);
+}
+.ingresar{
+    font-size: 25px;
+    margin-left: 93px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block;
+    border: 2px solid rgb(43, 43, 43);
+}
+.registrate{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+.footer_login{
+    height: 50px;
+    margin-top: 220px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.contenedor_redes_sociales_login{
+    margin-top: 10px;
+}
+.contenedor_registrar{
+    width: 313px;
+    margin-top: 5px;
+    margin-left: 450px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.crear_cuenta{
+    text-align: center;
+    font-family: Arial;
+}
+.usuario_input{
+    font-size: 25px;
+    margin-left: 5px;
+    border-radius: 5px;
+    display: block;
+    border: 2px solid rgb(43, 43, 43);
+}
+.contraseña_input{
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block;
+    border: 2px solid rgb(43, 43, 43);
+}
+.email_input{
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block;
+    border: 2px solid rgb(43, 43, 43);
+}
+.confirm_contraseña_input{
+    font-size: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block;
+    border: 2px solid rgb(43, 43, 43);
+}
+.registrate_enviar{
+    font-size: 25px;
+    margin-left: 93px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: block;
+    border: 2px solid rgb(43, 43, 43);
+}
+.registrate{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+.regresar{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial;
+    display: block;
+    color: rgb(0, 0, 0);
+}
+.footer_registro{
+    height: 50px;
+    margin-top: 220px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.contenedor_redes_sociales_registro{
+    margin-top: 10px;
+    margin-left: -500px;
+}
+#usuario-autenticado{
+    font-size: 25px;
+    margin-left: -40px;
+    font-weight: bold;
+    font-family: Arial;
+}
+.contenedor_cerrar{
+    margin-top: 13px;
+    margin-left: 40px;
+}
+#cerrar-sesion-btn{
+    margin-left: -100px;
+}
+/*estilizando_footer_1*/
+.footer_1{
+    height: 50px;
+    margin-top: 50px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.facebook{
+    font-size: 30px;
+    margin-left: 355px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.masomy_oficial{
+    font-size: 30px;
+    font-family: Arial;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.instagram{
+    font-size: 30px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.masomy_oficial{
+    font-size: 30px;
+    font-family: Arial;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.masomy_oficial:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_1*/
+.contenedor_3{
+    width: 314.5px;
+    height: 566px;
+    margin-top: 5px;
+    margin-left: -527px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_1{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.vestido_blanco{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_l, .precio_120_000, .propiedad_masomy{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_vestido_blanco{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_vestido_blanco:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito:hover, .comprar:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_2*/
+.contenedor_4{
+    width: 314.5px;
+    height: 590px;
+    margin-top: 5px;
+    margin-left: -527px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_2{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.vestido_rosa_con_figuras_llamativas_en_blanco{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.seleccionar_vestido_rosa_con_figuras_llamativas_en_blanco{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_vestido_rosa_con_figuras_llamativas_en_blanco:hover{
+    color: rgb(43, 43, 43);
+}
+.talla_m, .precio_109_000, .propiedad_masomy_2{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.agregar_carrito_2{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_2{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_2:hover, .comprar_2:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_3*/
+.contenedor_4{
+    width: 314.5px;
+    height: 590px;
+    margin-top: 5px;
+    margin-left: -527px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_3{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.blusa_morada_con_pantalon_blanco{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.seleccionar_blusa_morada_con_pantalon_blanco{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_blusa_morada_con_pantalon_blanco:hover{
+    color: rgb(43, 43, 43);
+}
+.talla_s, .precio_110_000, .propiedad_masomy_3{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.agregar_carrito_3{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_3{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_3:hover, .comprar_3:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_4*/
+.contenedor_5{
+    width: 314.5px;
+    height: 565.5px;
+    margin-top: -594px;
+    margin-left: 330px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_4{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.blusa_azul{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.seleccionar_blusa_azul{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_blusa_azul:hover{
+    color: rgb(43, 43, 43);
+}
+.talla_s, .precio_101_000, .propiedad_masomy_4{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.agregar_carrito_4{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_4{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_4:hover, .comprar_4:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_busqueda_talla_s*/
+.imagen_titulo_talla_s{
+    width: 850px;
+    height: 390px;
+    margin-top: 5px;
+    margin-left: 200px;
+}
+/*estilizando_producto_5_talla_s*/
+.contenedor_6{
+    width: 314.5px;
+    height: 566px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_5{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.blusa_verde_con_flores_blancas{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_130_000, .propiedad_masomy_5{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_blusa_verde_con_flores_blancas{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_blusa_verde_con_flores_blancas:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_5{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_5{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_5:hover, .comprar_5:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_6_talla_s*/
+.contenedor_7{
+    width: 314.5px;
+    height: 566px;
+    margin-top: -570px;
+    margin-left: 470px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_6{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.blusa_amarilla{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_110_000, .propiedad_masomy_6{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_blusa_amarilla{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_blusa_amarilla:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_6{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_6{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_6:hover, .comprar_6:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_7_talla_s*/
+.contenedor_8{
+    width: 314.5px;
+    height: 566px;
+    margin-top: -570px;
+    margin-left: 939px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_7{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.blusa_rosada{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_111_000, .propiedad_masomy_7{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_blusa_rosada{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_blusa_rosada:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_7{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_7{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_7:hover, .comprar_7:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_8_talla_s*/
+.contenedor_9{
+    width: 314.5px;
+    height: 566px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_8{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.sueter_blanco{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_105_000, .propiedad_masomy_8{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_sueter_blanco{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_sueter_blanco:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_8{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_8{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_8:hover, .comprar_8:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_9_talla_s*/
+.contenedor_10{
+    width: 314.5px;
+    height: 566px;
+    margin-top: -570px;
+    margin-left: 470px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_9{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.pantalon_bermuda_negro{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_100_000, .propiedad_masomy_9{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_pantalon_bermuda_negro{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_pantalon_bermuda_negro:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_9{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_9{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_9:hover, .comprar_9:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_10_talla_s*/
+.contenedor_11{
+    width: 314.5px;
+    height: 590px;
+    margin-top: -570px;
+    margin-left: 939px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_10{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.camisa_blanca_y_pantaloneta_cafe{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_100_000, .propiedad_masomy_10{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_camisa_blanca_y_pantaloneta_cafe{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_camisa_blanca_y_pantaloneta_cafe:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_10{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_10{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_10:hover, .comprar_10:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_11_talla_s*/
+.contenedor_12{
+    width: 314.5px;
+    height: 566px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_11{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.pantalon_jean_hombre{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_100_000, .propiedad_masomy_11{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_pantalon_jean_hombre{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_pantalon_jean_hombre:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_11{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_11{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_11:hover, .comprar_11:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_12_talla_s*/
+.contenedor_13{
+    width: 314.5px;
+    height: 566px;
+    margin-top: -570px;
+    margin-left: 470px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_12{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.camisa_azul_claro{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_101_000, .propiedad_masomy_12{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_camisa_azul_claro{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_camisa_azul_claro:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_12{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_12{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_12:hover, .comprar_12:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_13_talla_s*/
+.contenedor_14{
+    width: 314.5px;
+    height: 565px;
+    margin-top: -570px;
+    margin-left: 939px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_13{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.bermuda_color_blanco{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_100_000, .propiedad_masomy_13{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_bermuda_color_blanco{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_bermuda_color_blanco:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_13{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_13{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_13:hover, .comprar_13:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_ver_mas*/
+.ver_mas{
+    font-size: 30px;
+    border-radius: 5px;
+    margin-top: 55px;
+    margin-left: 570px;
+    font-family: Arial;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+/*estilizando_producto_14_talla_s*/
+.contenedor_15{
+    width: 314.5px;
+    height: 566px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_14{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.sueter_color_turquesa{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_160_000, .propiedad_masomy_14{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_sueter_color_turquesa{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_sueter_color_turquesa:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_14{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_14{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_14:hover, .comprar_14:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_15_talla_s*/
+.contenedor_16{
+    width: 314.5px;
+    height: 566px;
+    margin-top: -570px;
+    margin-left: 470px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_15{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.vestido_rosa{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_160_000, .propiedad_masomy_15{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_vestido_rosa{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_vestido_rosa:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_15{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_15{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_15:hover, .comprar_15:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_16_talla_s*/
+.contenedor_17{
+    width: 314.5px;
+    height: 565px;
+    margin-top: -570px;
+    margin-left: 939px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_16{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.vestido_negro{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_140_000, .propiedad_masomy_16{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_vestido_negro{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_vestido_negro:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_16{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_16{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_16:hover, .comprar_16:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_17_talla_s*/
+.contenedor_18{
+    width: 314.5px;
+    height: 566px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_17{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.vestido_estilo_niña{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_140_000, .propiedad_masomy_17{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_vestido_estilo_niña{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_vestido_estilo_niña:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_17{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_17{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_17:hover, .comprar_17:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_18_talla_s*/
+.contenedor_19{
+    width: 314.5px;
+    height: 566px;
+    margin-top: -570px;
+    margin-left: 470px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_18{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.blusa_estilo_acuario{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_145_000, .propiedad_masomy_18{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_blusa_estilo_acuario{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_blusa_estilo_acuario:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_18{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_18{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_18:hover, .comprar_18:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_19_talla_s*/
+.contenedor_20{
+    width: 314.5px;
+    height: 565px;
+    margin-top: -570px;
+    margin-left: 939px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_19{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.vestido_con_petalos_llamativos{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_116_000, .propiedad_masomy_19{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_vestido_con_petalos_llamativos{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_vestido_con_petalos_llamativos:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_19{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_19{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_19:hover, .comprar_19:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_20_talla_s*/
+.contenedor_21{
+    width: 314.5px;
+    height: 566px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_20{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.bermuda_rosa{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_s, .precio_120_000, .propiedad_masomy_20{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_bermuda_rosa{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.seleccionar_bermuda_rosa:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_20{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_20{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_20:hover, .comprar_20:hover{
+    color: rgb(43, 43, 43);
+}
+.footer_3{
+    height: 50px;
+    margin-top: 300px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.contenedor_redes_sociales{
+    margin-top: 8px;
+}
+/*estilizando_busqueda_talla_m*/
+.imagen_titulo_talla_m{
+    width: 850px;
+    height: 390px;
+    margin-top: 5px;
+    margin-left: 200px;
+}
+/*estilizando_producto_14_talla_m*/
+.contenedor_24{
+    width: 314.5px;
+    height: 566px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_21{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.blusa_y_pantalon_verde{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_m, .precio_160_000, .propiedad_masomy_21{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_blusa_y_pantalon_verde{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_blusa_y_pantalon_verde:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_21{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_21{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_21:hover, .comprar_21:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_15_talla_m*/
+.contenedor_25{
+    width: 314.5px;
+    height: 566px;
+    margin-top: -570px;
+    margin-left: 470px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_22{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.vestido_azul_claro{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_m, .precio_110_000, .propiedad_masomy_22{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_vestido_azul_claro{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_vestido_azul_claro:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_22{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_22{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_22:hover, .comprar_22:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_16_talla_m*/
+.contenedor_26{
+    width: 314.5px;
+    height: 566px;
+    margin-top: -570px;
+    margin-left: 939px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_23{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.vestido_color_negro{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_m, .precio_111_000, .propiedad_masomy_23{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_vestido_color_negro{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.seleccionar_vestido_color_negro:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_23{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_23{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_23:hover, .comprar_23:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_17_talla_m*/
+.contenedor_27{
+    width: 314.5px;
+    height: 566px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_24{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.blusa_blanca{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_m, .precio_101_000, .propiedad_masomy_24{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_blusa_blanca{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_blusa_blanca:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_24{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_24{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_24:hover, .comprar_24:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_18_talla_m*/
+.contenedor_28{
+    width: 314.5px;
+    height: 566px;
+    margin-top: -570px;
+    margin-left: 470px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_25{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.vestido_amarillo{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_m, .precio_103_000, .propiedad_masomy_25{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_vestido_amarillo{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.seleccionar_vestido_amarillo:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_25{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_25{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_25:hover, .comprar_25:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_19_talla_m*/
+.contenedor_29{
+    width: 314.5px;
+    height: 566px;
+    margin-top: -570px;
+    margin-left: 939px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_26{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.vestido_rosa{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_m, .precio_112_000, .propiedad_masomy_26{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_vestido_rosa{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_vestido_rosa:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_26{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_26{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_26:hover, .comprar_26:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_producto_20_talla_m*/
+.contenedor_30{
+    width: 314.5px;
+    height: 566px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.imagen_producto_27{
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.vestido_morado_claro{
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.talla_m, .precio_180_000, .propiedad_masomy_27{
+    margin-top: 5px;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.seleccionar_vestido_morado_claro{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.seleccionar_vestido_morado_claro:hover{
+    color: rgb(43, 43, 43);
+}
+.agregar_carrito_27{
+    font-size: 20px;
+    margin-left: 67px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.comprar_27{
+    font-size: 20px;
+    margin-left: 112px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.agregar_carrito_27:hover, .comprar_27:hover{
+    color: rgb(43, 43, 43);
+}
+/*estilizando_detalles_de_productos*/
+.contenedor_22 {
+    margin-top: -338px;
+    margin-left: 5px;
+    width: 753px;
+    height: 415px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.imagen_producto_detalles{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 400px;
+    height: 400px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.contenedor_23 {
+    width: 330px;
+    height: 399px;
+    margin-top: -403.5px;
+    margin-left: 414px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.detalles{
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.producto_detalle{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.talla_detalle{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.precio_detalle{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.propiedad_detalle{
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: Arial;
+}
+.contenedor_botones{
+    margin-top: -65px;
+    margin-left: 478px;
+}
+.boton_siguiente{
+    margin-left: 5px;
+    margin-top: -150px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.boton_anterior{
+    width: 100px;
+    margin-left: 5px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+/*estilizando_calificacion*/
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-20px);
+    }
+    60% {
+        transform: translateY(-10px);
+    }
+}
+.estrella {
+    transition: transform 0.2s;
+    font-size: 25px;
+    cursor: pointer;
+}
+.estrella.selected {
+    color: gold;
+}
+.estrella.clicked {
+    animation: bounce 0.5s;
+    transform-origin: center;
+}
+#calificacion{
+    margin-top: 300px;
+    margin-left: 430px;
+}
+.contenedor_escribir{
+    width: 500px;
+    height: 200px;
+    margin-top: 21px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);    
+}
+.enviar_comentario{
+    font-size: 25px;
+    margin-left: 5px;
+    border-radius: 5px;
+    display: block;
+    border: 2px solid rgb(43, 43, 43);
+}
+.comentarios{
+    text-align: center;
+    font-family: Arial;
+}
+hr{
+    border: 1.4px solid rgb(43, 43, 43);
+}
+/*estilizando_caja_de_comentarios*/
+.caja_comentario {
+    margin-top: -673px;
+    margin-left: 766.5px;
+    width: 487px;
+    height: 415px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+    overflow: auto; /* Añadir barra de desplazamiento si el contenido es demasiado largo */
+}
+/* Los comentarios */
+.comment-container{
+    margin-top: -10px;
+    margin-left: -35px;
+    text-align: justify;
+    word-wrap: break-word; /* Romper palabras largas en múltiples líneas */
+}
+.hr-comentario{
+    margin-left: -105px;
+}
+.like-dislike-container{
+    margin-top: -20px;
+    margin-left: 334px;
+}
+.like-button {
+    font-size: 20px;
+    margin-top: 5px; /* Ajusta el margen superior para posicionar el botón debajo del comentario */
+}
+.dislike-button {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 5px; /* Ajusta el margen superior para posicionar el botón debajo del comentario */
+}
+.like-count {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 5px; /* Ajusta el margen superior para posicionar el contador debajo del comentario */
+}
+.dislike-count {
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 5px; /* Ajusta el margen superior para posicionar el contador debajo del comentario */
+}
+/*estilizando_compra_de_producto*/
+.producto{
+    width: 535px;
+    height: 315px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);   
+}
+.compra_imagen_producto{
+    width: 300px;
+    height: 300px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.compra_nombre_producto{
+    margin-left: 315px;
+    margin-top: -312px;
+    font-size: 25px;
+    font-family: Arial;
+}
+.compra_descripcion_producto{
+    width: 215px;
+    margin-top: -15px;
+    margin-left: 315px;
+    font-family: Arial;
+    text-align: justify;
+}
+.compra_propiedad_producto{
+    margin-top: 5px;
+    margin-left: 315px;
+    font-family: Arial;
+}
+.compra_talla_producto{
+    margin-top: 5px;
+    margin-left: 315px;
+    font-family: Arial;
+}
+.compra_precio_producto{
+    margin-top: 5px;
+    margin-left: 315px;
+    font-family: Arial;
+}
+/*estilizando_compra_de_producto_formulario*/
+.formulario_compra {
+    width: 615px;
+    max-width: 664px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 599px;
+    margin-top: -319px;
+    font-family: Arial;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.formulario-label {
+    font-size: 20px;
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+.formulario-input, .formulario-select {
+    width: 290px;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.formulario_compra_titulo{
+    text-align: center;
+}
+.contenedor_guardar_datos{
+    margin-left: -633px;
+    font-family: Arial;
+}
+.formulario-button {
+    width: 180px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 225px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.datos_ingresados{
+    font-size: 24px;
+    text-align: center;
+    font-family: Arial;
+}
+.formulario-span {
+    font-size: 20px;
+}
+.contenedor_32{
+    margin-left: -15px;
+}
+.contenedor_33{
+    margin-left: 315px;
+    margin-top: -87.5px;
+}
+.contenedor_34{
+    margin-left: -15px;
+}
+.contenedor_35{
+    margin-left: 315px;
+    margin-top: -87.5px;
+}
+.contenedor_36{
+    margin-left: -15px;
+}
+.contenedor_37{
+    margin-left: 315px;
+    margin-top: -87.5px;
+}
+.contenedor_38{
+    margin-left: -15px;
+}
+/*estilizando_tabla_de_datos */
+.tabla-datos {
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 740px;
+    margin-top: 5px;
+    border-collapse: collapse;
+    background: rgb(87, 87, 87);
+}
+.tabla-datos h2 {
+    width: 100px;
+    font-size: 24px;
+    text-align: center;
+}
+.tabla-datos tr {
+    border: 2px solid rgb(43, 43, 43);
+}
+.formulario-td {   
+    padding: 10px;
+    border: 2px solid rgb(43, 43, 43);
+}
+.formulario-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: Arial;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid rgb(43, 43, 43);
+}
+.formulario-span {
+    font-size: 20px;
+    font-family: Arial;
+}
+.comprar_ahora{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 848px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(43, 43, 43);
+    background: rgb(87, 87, 87);
+}
+.datos_guardados{
+    margin-left: 850px;
+}
+/*estilizando_adaptacion_movil*/

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>masomy</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!--estructurando_menu_de_navegación-->
+    <div class="contenedor_1">
+        <h1 class="masomy">masomy 
+            <a href="index.html" class="inicio" onclick="mostrarInicio()">inicio</a> <a href="#" class="nosotros" onclick="mostrarNosotros()">nosotros</a> <a href="#" class="contactanos" onclick="mostrarContacto()">contactanos</a> <a href="#" class="guardar_icono" onclick="mostrarGuardar()"><i class="fa-solid fa-bookmark"></i></a> <a href="#" class="carrito_icono"><i class="fas fa-shopping-cart"></i></a><span id="contadorCarrito" class="contador-carrito">0</span> </h1>
+        <div class="contenedor_2">
+            <input type="text" id="barraBusqueda" placeholder="Buscar..." class="barra_busqueda">
+        </div>          
+    </div>
+    <div class="contenedor_cuenta">
+        <a href="login.html" class="cuenta_icono"><i class="fa-solid fa-circle-user"></i></a>
+        <div id="usuario-autenticado">
+            <span id="nombre-usuario" class="usuario"></span>
+            <div class="contenedor_cerrar">
+                <button id="cerrar-sesion-btn">Cerrar sesión</button>
+            </div> 
+        </div>
+    </div>
+    <!--estructurando_contenido-->
+    <div id="contenido">
+        <div class="carousel">
+            <img class="slide" src="imagen_carrusel_1.gif" alt="Imagen 1">
+            <img class="slide" src="imagen_carrusel_2.gif" alt="Imagen 2">
+            <img class="slide" src="imagen_carrusel_3.gif" alt="Imagen 3">
+        </div>
+        <div class="carousel-buttons">
+            <button class="carousel-button active"></button>
+            <button class="carousel-button"></button>
+            <button class="carousel-button"></button>
+        </div>
+        <div class="paginaciones">
+            <button onclick="mostrarPagina(1)" class="paginacion_1"><b>1</b></button>
+            <button onclick="mostrarPagina(2)" class="paginacion_2"><b>2</b></button>
+            <button onclick="mostrarPagina(3)" class="paginacion_3"><b>3</b></button>
+            <!--estructurando_producto_1-->
+            <div class="contenedor_3">
+                <img src="imagen_producto_1.jpg" alt="" class="imagen_producto_1">
+                <p class="vestido_blanco"><a href="detalle_de_producto.html?producto=1" class="seleccionar_vestido_blanco"><b>vesito blanco</b></a></p>
+                <p class="talla_l"><b>talla: l</b></a></p>
+                <p class="precio_120_000"><b>Precio: 120.000</b></p>
+                <p class="propiedad_masomy"><b>Propiedad: Masomy</b></p>
+                <button class="agregar_carrito" data-nombre="Vestido Blanco" data-precio="120000"><b>agregar al carrito</b></button>
+                <button id="comprar" class="comprar" data-producto="1"><b>Comprar</b></button>
+            </div>
+        </div>
+    </div>
+    <!--estruturando_carrito_de_compra_ventana_emergente-->
+    <div id="modalCarrito" class="modal">
+        <div class="modal-contenido">
+            <span class="modal-cerrar" onclick="cerrarModalCarrito()">&times;</span>
+            <h2 class="carrito_de_compras">carrito de compras</h2>
+            <div id="carritoContenido" ></div>
+            <p id="totalCarrito"></p>
+        </div>
+    </div>
+    <footer class="footer_1">
+        <div class="contenedor_redes_sociales">
+            <a href="" class="facebook"><i class="fab fa-facebook"></i> <a href="" class="masomy_oficial"><b>masomyoficial</b></a></a>
+            <a href="" class="instagram"><i class="fab fa-instagram"></i> <a href="" class="masomy_oficial"><b>masomyoficial</b></a></a>
+        </div>
+    </footer>
+</body>
+</html>

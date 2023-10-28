@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra de Producto</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!--estructurando_menu_de_navegación-->
+    <div class="contenedor_1">
+        <h1 class="masomy">masomy 
+            <a href="index.html" class="inicio" onclick="mostrarInicio()">inicio</a> <a href="#" class="nosotros" onclick="mostrarNosotros()">nosotros</a> <a href="#" class="contactanos" onclick="mostrarContacto()">contactanos</a> <a href="#" class="guardar_icono" onclick="mostrarGuardar()"><i class="fa-solid fa-bookmark"></i></a> <a href="#" class="carrito_icono"><i class="fas fa-shopping-cart"></i></a><span id="contadorCarrito" class="contador-carrito">0</span> </h1>
+        <div class="contenedor_2">
+            <input type="text" id="barraBusqueda" placeholder="Buscar..." class="barra_busqueda">
+        </div>          
+    </div>
+    <div class="contenedor_cuenta">
+        <a href="login.html" class="cuenta_icono"><i class="fa-solid fa-circle-user"></i></a>
+        <div id="usuario-autenticado">
+            <span id="nombre-usuario" class="usuario"></span>
+            <div class="contenedor_cerrar">
+                <button id="cerrar-sesion-btn">Cerrar sesión</button>
+            </div> 
+        </div>
+    </div>
+    <!-- Estructura_de_contenido -->
+    <div id="contenido">
+        <div class="producto">
+            <img id="imagenProducto" src="" alt="Imagen del producto" class="compra_imagen_producto">
+            <h1 id="nombreProducto" class="compra_nombre_producto"></h1>
+            <p id="descripcionProducto" class="compra_descripcion_producto"></p>
+            <p id="propiedadProducto" class="compra_propiedad_producto"></p>
+            <p id="tallaProducto" class="compra_talla_producto"></p>
+            <p id="precioProducto" class="compra_precio_producto"></p>
+        </div>
+        <div id="formularioCompra" class="formulario_compra">
+            <h2 class="formulario_compra_titulo">Formulario de Compra</h2>
+            <form id="formCompra">
+                <div class="contenedor_32">
+                    <label for="" class="formulario-label">nombre:</label>
+                    <input type="text" id="nombre" class="formulario-input" placeholder="Nombre">
+                </div>
+                <div class="contenedor_33">
+                    <label for="" class="formulario-label">apellido:</label>
+                    <input type="text" id="apellido" class="formulario-input" placeholder="Apellido">
+                </div>
+                <div class="contenedor_34">
+                    <label for="" class="formulario-label">genero:</label>
+                    <select id="genero" name="genero" class="formulario-select">
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div class="contenedor_35">
+                    <label for="" class="formulario-label">ciudad:</label>
+                    <input type="text" id="ciudad" class="formulario-input" placeholder="Ciudad">
+                </div>
+                <div class="contenedor_36">
+                    <label for="" class="formulario-label">tipo de documento:</label>
+                    <select id="tipoDocumento" name="tipoDocumento" class="formulario-select">
+                        <option value="cedula">Cédula de Identidad</option>
+                        <option value="pasaporte">Pasaporte</option>
+                    </select>
+                </div>
+                <div class="contenedor_37">
+                    <label for="" class="formulario-label">numero de documento:</label>
+                    <input type="text" id="numeroCedula" class="formulario-input" placeholder="Número de Cédula">
+                </div>
+                <div class="contenedor_38">
+                    <label for="" class="formulario-label">tarjeta bancaria:</label>
+                    <input type="text" id="tarjetaBancaria" class="formulario-input" placeholder="Tarjeta Bancaria">
+                </div>
+                <button id="guardarDatos" class="formulario-button" type="button">Guardar</button>
+            </form>
+            <div id="contenedorDatos" style="display: none;" class="contenedor_guardar_datos">
+                <h2 class="datos_guardados"><b>datos guardados</b></h2>
+                <div class="tabla_contenido">
+                    <table class="tabla-datos">
+                        <tr>
+                            <td class="formulario-td"><strong>Nombre:</strong></td>
+                            <td class="formulario-td"><span id="nombreMostrado" class="formulario-span"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="formulario-td"><strong>Apellido:</strong></td>
+                            <td class="formulario-td"><span id="apellidoMostrado" class="formulario-span"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="formulario-td"><strong>Género:</strong></td>
+                            <td class="formulario-td"><span id="generoMostrado" class="formulario-span"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="formulario-td"><strong>Ciudad:</strong></td>
+                            <td class="formulario-td"><span id="ciudadMostrada" class="formulario-span"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="formulario-td"><strong>Tipo de Documento:</strong></td>
+                            <td class="formulario-td"><span id="tipoDocumentoMostrado" class="formulario-span"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="formulario-td"><strong>Número de Cédula:</strong></td>
+                            <td class="formulario-td"><span id="numeroCedulaMostrado" class="formulario-span"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="formulario-td"><strong>Tarjeta Bancaria:</strong></td>
+                            <td class="formulario-td"><span id="tarjetaBancariaMostrada" class="formulario-span"></span></td>
+                        </tr>
+                    </table>
+                    <!-- Otros campos del formulario aquí -->
+                    <button id="comprarAhora" class="comprar_ahora" onclick="irAConfirmacionCompra()"><b>comprar ahora</b></button>
+                </div>
+            </div>
+        </div>                              
+    </div>
+    <div id="productosEnCarrito" class="productos-en-carrito">
+        <!-- Los productos del carrito se mostrarán aquí -->
+    </div> 
+    <!-- Estructura_de_carrito_de_compra_ventana_emergente -->
+    <div id="modalCarrito" class="modal">
+        <div class="modal-contenido">
+            <span class="modal-cerrar" onclick="cerrarModalCarrito()">&times;</span>
+            <h2 class="carrito_de_compras">carrito de compras</h2>
+            <div id="carritoContenido"></div>
+            <p id="totalCarrito"></p>
+        </div>
+    </div>
+    <!-- Estructura_del_pie_de_página -->
+    <footer class="footer_5">
+        <div class="contenedor_redes_sociales">
+            <a href="" class="facebook"><i class="fab fa-facebook"></i> <a href="" class="masomy_oficial"><b>masomyoficial</b></a></a>
+            <a href="" class="instagram"><i class="fab fa-instagram"></i> <a href="" class="masomy_oficial"><b>masomyoficial</b></a></a>
+        </div>
+    </footer>
+</body>
+</html>

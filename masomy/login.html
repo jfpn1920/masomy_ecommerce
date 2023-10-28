@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <!--estructurando_menu_de_navegación-->
+    <div class="contenedor_1">
+        <h1 class="masomy">masomy 
+            <a href="index.html" class="inicio" onclick="mostrarInicio()">inicio</a> <a href="#" class="nosotros" onclick="mostrarNosotros()">nosotros</a> <a href="#" class="contactanos" onclick="mostrarContacto()">contactanos</a> <a href="#" class="guardar_icono" onclick="mostrarGuardar()"><i class="fa-solid fa-bookmark"></i></a> <a href="#" class="carrito_icono"><i class="fas fa-shopping-cart"></i></a><span id="contadorCarrito" class="contador-carrito">0</span> </h1>
+        <div class="contenedor_2">
+            <input type="text" id="barraBusqueda" placeholder="Buscar..." class="barra_busqueda">
+        </div>          
+    </div>
+    <div class="contenedor_cuenta">
+        <a href="login.html" class="cuenta_icono"><i class="fa-solid fa-circle-user"></i></a>
+        <div id="usuario-autenticado">
+            <span id="nombre-usuario" class="usuario"></span>
+            <div class="contenedor_cerrar">
+                <button id="cerrar-sesion-btn">Cerrar sesión</button>
+            </div> 
+        </div>
+    </div>
+    <div id="contenido">
+        <div class="contenedor_inicio_sesion">
+            <form action="login_registrar.php" method="POST">
+                <h1 class="inicio_sesion">inicio de sesión</h1>
+                <input type="text" placeholder="Ingresar usuario" name="usuario" required class="usuario_input">
+                <input type="password" placeholder="Ingresar contraseña" name="pass" required class="contraseña_input">
+                <input type="email" placeholder="Ingresar correo electrónico" name="email" required class="email_input">
+                <input type="submit" value="Ingresar" name="btningresar" class="ingresar">
+                <p> <a href="registrar.html" class="registrate"><b>Registrarse</b></a></p>
+            </form>
+        </div>
+    </div>
+    <footer class="footer_login">
+        <div class="contenedor_redes_sociales_login">
+            <a href="" class="facebook"><i class="fab fa-facebook"></i> <a href="" class="masomy_oficial"><b>masomyoficial</b></a></a>
+            <a href="" class="instagram"><i class="fab fa-instagram"></i> <a href="" class="masomy_oficial"><b>masomyoficial</b></a></a>
+        </div>
+    </footer>
+</body>
+</html>
